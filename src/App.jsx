@@ -32,7 +32,6 @@ const ConteudoGaleria = styled.section`
   flex-grow: 1;
 `
 
-
 const App = () => {
   const [fotosDaGaleria, setFotosDaGaleria] = useState(fotos)
   const [fotoSelecionada, setFotoSelecionada] = useState(null)
